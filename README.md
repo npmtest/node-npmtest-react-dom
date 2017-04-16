@@ -1,7 +1,7 @@
-# test coverage for  [react-dom (v15.5.3)](https://facebook.github.io/react/)  [![npm package](https://img.shields.io/npm/v/npmtest-react-dom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-dom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-dom.svg)](https://travis-ci.org/npmtest/node-npmtest-react-dom)
+# test coverage for  [react-dom (v15.5.4)](https://facebook.github.io/react/)  [![npm package](https://img.shields.io/npm/v/npmtest-react-dom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-dom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-dom.svg)](https://travis-ci.org/npmtest/node-npmtest-react-dom)
 #### React package for working with the DOM.
 
-[![NPM](https://nodei.co/npm/react-dom.png?downloads=true)](https://www.npmjs.com/package/react-dom)
+[![NPM](https://nodei.co/npm/react-dom.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-dom)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-react-dom/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-dom/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-dom/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-dom/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-dom/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-dom/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-react-dom/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-dom/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-dom/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-react-dom/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-react-dom%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-dom/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-react-dom/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-dom/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-dom/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-react-dom%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-dom/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-dom/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-dom/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-react-dom/build/screenCapture.npmPackageListing.svg)
 
@@ -38,14 +38,14 @@
         "fbjs": "^0.8.9",
         "loose-envify": "^1.1.0",
         "object-assign": "^4.1.0",
-        "prop-types": "~15.5.0"
+        "prop-types": "~15.5.7"
     },
     "description": "React package for working with the DOM.",
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "2ee127ce942df55da53111ae303316e68072b5c5",
-        "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-15.5.3.tgz"
+        "shasum": "ba0c28786fd52ed7e4f2135fe0288d462aef93da",
+        "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-15.5.4.tgz"
     },
     "files": [
         "LICENSE",
@@ -65,48 +65,41 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "acdlite",
-            "email": "acdlite@me.com"
+            "name": "acdlite"
         },
         {
-            "name": "brianvaughn",
-            "email": "briandavidvaughn@gmail.com"
+            "name": "brianvaughn"
         },
         {
-            "name": "fb",
-            "email": "opensource+npm@fb.com"
+            "name": "fb"
         },
         {
-            "name": "gaearon",
-            "email": "dan.abramov@gmail.com"
+            "name": "flarnie"
         },
         {
-            "name": "sebmarkbage",
-            "email": "sebastian@calyptus.eu"
+            "name": "gaearon"
         },
         {
-            "name": "spicyj",
-            "email": "ben@benalpert.com"
+            "name": "sebmarkbage"
         },
         {
-            "name": "tomocchino",
-            "email": "tomocchino@gmail.com"
+            "name": "spicyj"
         },
         {
-            "name": "trueadm",
-            "email": "dg@domgan.com"
+            "name": "tomocchino"
         },
         {
-            "name": "zpao",
-            "email": "paul@oshannessy.com"
+            "name": "trueadm"
+        },
+        {
+            "name": "zpao"
         }
     ],
     "name": "react-dom",
     "optionalDependencies": {},
     "peerDependencies": {
-        "react": "^15.5.3"
+        "react": "^15.5.4"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/facebook/react.git"
@@ -114,7 +107,7 @@
     "scripts": {
         "start": "node server.js"
     },
-    "version": "15.5.3"
+    "version": "15.5.4"
 }
 ```
 
